@@ -15,3 +15,7 @@ end
 get '/newer' do
   "Please work"
 end
+
+get '/cat' do
+  send_file 'cat.html'
+end
